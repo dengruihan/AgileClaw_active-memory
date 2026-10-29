@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2024"],
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "paths": {
+      "openclaw/plugin-sdk/plugin-state-test-runtime": [
+        "../AgileClaw/dist/plugin-sdk/plugin-state-test-runtime.d.ts"
+      ],
+      "openclaw/plugin-sdk/sqlite-runtime-testing": [
+        "../AgileClaw/dist/plugin-sdk/sqlite-runtime-testing.d.ts"
+      ]
+    }
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
